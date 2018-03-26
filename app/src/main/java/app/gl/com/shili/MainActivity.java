@@ -50,7 +50,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         et_main_coding = findViewById(R.id.et_main_coding);
         String position = et_main_position.getText().toString();
         String coding = et_main_coding.getText().toString();
-        //pDao = new PersonDao(this,position,coding);
         pDao = new PersonDao(this);
         data = pDao.queryAll();
         btn_main_start.setOnClickListener(this);
