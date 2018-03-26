@@ -28,6 +28,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private EditText et_main_position;
     private TextView tv_main_tv;
     private EditText et_main_coding;
+
+
+
+
     private PersonAdapter adapter;
     private List<Person> data;
     private PersonDao pDao;
